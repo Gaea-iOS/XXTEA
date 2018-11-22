@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XXTEA_Example' do
+  pod 'XXTEA', :path => '../'
+
+  target 'XXTEA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
