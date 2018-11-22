@@ -1,0 +1,6 @@
+framework module XXTEA {
+  umbrella header "XXTEA-umbrella.h"
+
+  export *
+  module * { export * }
+}

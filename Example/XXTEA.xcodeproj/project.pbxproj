@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0134CC36CFDE6F3374D9CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0134CC36CFDE6F3374D9CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2250811C0DB49A841977DC33 /* Pods-XXTEA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTEA_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXTEA_Tests/Pods-XXTEA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XXTEA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXTEA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63003003AB03EB76EF4A9088 /* Pods-XXTEA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTEA_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXTEA_Tests/Pods-XXTEA_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		65128E0729FF72FB5FB6221A /* XXTEA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXTEA.podspec; path = ../XXTEA.podspec; sourceTree = "<group>"; };
+		65128E0729FF72FB5FB6221A /* XXTEA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXTEA.podspec; path = ../XXTEA.podspec; sourceTree = "<group>"; };
 		87E3FA20AE23F1142ACC9C2F /* Pods-XXTEA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTEA_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXTEA_Example/Pods-XXTEA_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFCF91613FB4EBC9AFEEEC27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFCF91613FB4EBC9AFEEEC27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E8A0517E24063C0630630FC0 /* Pods-XXTEA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTEA_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXTEA_Example/Pods-XXTEA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F6A4A896ED632F8ED422BAC0 /* Pods_XXTEA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXTEA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F884B2AADB341AF776D82DCC /* Pods_XXTEA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXTEA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D48A2C9JPT;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D48A2C9JPT;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -481,6 +483,7 @@
 			baseConfigurationReference = 87E3FA20AE23F1142ACC9C2F /* Pods-XXTEA_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D48A2C9JPT;
 				INFOPLIST_FILE = XXTEA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -496,6 +499,7 @@
 			baseConfigurationReference = E8A0517E24063C0630630FC0 /* Pods-XXTEA_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D48A2C9JPT;
 				INFOPLIST_FILE = XXTEA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2250811C0DB49A841977DC33 /* Pods-XXTEA_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D48A2C9JPT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63003003AB03EB76EF4A9088 /* Pods-XXTEA_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D48A2C9JPT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

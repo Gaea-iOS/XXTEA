@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B754086350D2A5628B7E27AAF4701D /* XXTEA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4548A4B29320620025B276172BBB3115 /* XXTEA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315693EE4557C2F23543A4C6BF683D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		36DFD765D7B319CA95A695F8EDDE337B /* XXTEA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23439DCC9F730D4F970A1C7FF60914 /* XXTEA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DEC28B1232EE226FA2C3ABA26D0BB6 /* XXTEA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C1E1464E7019C10BD660B48C92FA70 /* XXTEA-dummy.m */; };
+		49ED42B08D2DBA9FE27DE3C7262A5CC7 /* Pods-XXTEA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 460E58B9404231484192DDB511A2F2DC /* Pods-XXTEA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A7E5C92FB19EADCBC01309E5B622594 /* Pods-XXTEA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A583F32CF9DC94364FA3FB72A987DB9 /* Pods-XXTEA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E812A30CF8AEA7D3900991B8A29DB5 /* Pods-XXTEA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EABB0909DCB754E57E2EE6CCEC4E5D8 /* Pods-XXTEA_Tests-dummy.m */; };
+		5E90F4E72E71EF30B42D11E8A970920A /* Pods-XXTEA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA49B59E33EE96A04B7370EDAF8623 /* Pods-XXTEA_Example-dummy.m */; };
+		6B00961E9F6A0899A88499EEA3CCD7CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B503AE3558EAC2E3D9FBC90788F23B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BC78858D94DB0336983F82D4BBC19CCF /* XXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B643AE25CBB94D890F1D85B7EA101D3 /* XXTEA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEDC7CBF7D919A34A4C008B4B5AB7A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79367AB5A787D5C65048F1F100F32342;
+			remoteInfo = "Pods-XXTEA_Example";
+		};
+		A7E643D26A0AAA75D55F12E10551866C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9011D7D8784AC26CFFF2D1E55FF8B9EC;
+			remoteInfo = XXTEA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FAC446780970ABB0B90F8378A85383 /* Pods-XXTEA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XXTEA_Example.modulemap"; sourceTree = "<group>"; };
+		0C23439DCC9F730D4F970A1C7FF60914 /* XXTEA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXTEA.h; path = XXTEA/Classes/XXTEA.h; sourceTree = "<group>"; };
+		0DFD90EDF7D8294BEC8DA107559AB5DF /* XXTEA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXTEA.xcconfig; sourceTree = "<group>"; };
+		0EA5FFA3994FBB8CE3C240F2743B016A /* Pods-XXTEA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXTEA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13DBB911E507E6CA8F52C862AF1C7B3D /* Pods-XXTEA_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXTEA_Tests-resources.sh"; sourceTree = "<group>"; };
+		1830D367386F9C4E51D072A0F4D2790B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266AFE9683DC1A406712E1343E2576BE /* Pods-XXTEA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XXTEA_Tests.modulemap"; sourceTree = "<group>"; };
+		29CD64F1D0B5077079AE9E1AC8C4CB1C /* Pods-XXTEA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXTEA_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EABB0909DCB754E57E2EE6CCEC4E5D8 /* Pods-XXTEA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXTEA_Tests-dummy.m"; sourceTree = "<group>"; };
+		3235656F1C0B39377A5931AB6A62BE8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4548A4B29320620025B276172BBB3115 /* XXTEA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXTEA-umbrella.h"; sourceTree = "<group>"; };
+		460E58B9404231484192DDB511A2F2DC /* Pods-XXTEA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXTEA_Example-umbrella.h"; sourceTree = "<group>"; };
+		467087A91FC60575C6EE3C416A012F09 /* Pods-XXTEA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXTEA_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4B643AE25CBB94D890F1D85B7EA101D3 /* XXTEA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXTEA.m; path = XXTEA/Classes/XXTEA.m; sourceTree = "<group>"; };
+		4CF46325902493C6DEB42EA64AFB868A /* Pods-XXTEA_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXTEA_Example-resources.sh"; sourceTree = "<group>"; };
+		4FCA49B59E33EE96A04B7370EDAF8623 /* Pods-XXTEA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXTEA_Example-dummy.m"; sourceTree = "<group>"; };
+		545A21E63326E6767A0F35B377990311 /* Pods-XXTEA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXTEA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5850F8BC5E3B5A1F9506A3BB31187940 /* Pods-XXTEA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXTEA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6096A6E97294930189D54FF7E5327131 /* XXTEA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XXTEA.modulemap; sourceTree = "<group>"; };
+		66140DA4F5EE163E8274F4A614182BE6 /* Pods-XXTEA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXTEA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E680C0D6E73EBBDCF4FDB5ECC678EBC /* Pods_XXTEA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXTEA_Tests.framework; path = "Pods-XXTEA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BE0170086B3963787F1E73A3029586 /* XXTEA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XXTEA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		836F31A194ACC37E2130CE8CE175DE0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9231639FD98F1CD9152A060C1FF889C2 /* Pods-XXTEA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXTEA_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A583F32CF9DC94364FA3FB72A987DB9 /* Pods-XXTEA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXTEA_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F89AB134F6397CDB0D11A80111F3A2C /* Pods-XXTEA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXTEA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A13EA8A7B9763087369D53E9159B763E /* Pods-XXTEA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXTEA_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7B023B514C5D139EAF61D95B73E571F /* XXTEA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXTEA-prefix.pch"; sourceTree = "<group>"; };
+		B8C1E1464E7019C10BD660B48C92FA70 /* XXTEA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXTEA-dummy.m"; sourceTree = "<group>"; };
+		D1EFA5E556C0C424D0AE9B7975885103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6C41CA2148347FAE8A7980271D6FAF /* Pods-XXTEA_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXTEA_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E3653418F62DAD43F21DC45E155CB08A /* Pods_XXTEA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXTEA_Example.framework; path = "Pods-XXTEA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F525570559EB6089A25CA308E5E31F05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB0CAD6C732679A2063AE8AA7680070F /* XXTEA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXTEA.framework; path = XXTEA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1813B9164C1073C0CBE4A6A9DD54B494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B503AE3558EAC2E3D9FBC90788F23B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93016230BA3164724420C5B170C9AC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00961E9F6A0899A88499EEA3CCD7CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1F21A2DC6E7FB546932A227CAA7F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315693EE4557C2F23543A4C6BF683D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1994372ADF29A915FE2B1DE52FD3AE /* Pods-XXTEA_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1830D367386F9C4E51D072A0F4D2790B /* Info.plist */,
+				05FAC446780970ABB0B90F8378A85383 /* Pods-XXTEA_Example.modulemap */,
+				0EA5FFA3994FBB8CE3C240F2743B016A /* Pods-XXTEA_Example-acknowledgements.markdown */,
+				66140DA4F5EE163E8274F4A614182BE6 /* Pods-XXTEA_Example-acknowledgements.plist */,
+				4FCA49B59E33EE96A04B7370EDAF8623 /* Pods-XXTEA_Example-dummy.m */,
+				9231639FD98F1CD9152A060C1FF889C2 /* Pods-XXTEA_Example-frameworks.sh */,
+				4CF46325902493C6DEB42EA64AFB868A /* Pods-XXTEA_Example-resources.sh */,
+				460E58B9404231484192DDB511A2F2DC /* Pods-XXTEA_Example-umbrella.h */,
+				29CD64F1D0B5077079AE9E1AC8C4CB1C /* Pods-XXTEA_Example.debug.xcconfig */,
+				467087A91FC60575C6EE3C416A012F09 /* Pods-XXTEA_Example.release.xcconfig */,
+			);
+			name = "Pods-XXTEA_Example";
+			path = "Target Support Files/Pods-XXTEA_Example";
+			sourceTree = "<group>";
+		};
+		57DF9D482E03D96506C28DEB759785CE /* XXTEA */ = {
+			isa = PBXGroup;
+			children = (
+				0C23439DCC9F730D4F970A1C7FF60914 /* XXTEA.h */,
+				4B643AE25CBB94D890F1D85B7EA101D3 /* XXTEA.m */,
+				BA41442CDFB31C6F23CDB22B89B459AB /* Pod */,
+				701B2B1A67E84023566C9583353E1153 /* Support Files */,
+			);
+			name = XXTEA;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F78386C110D98CD8951B1CB5A2E5369 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1994372ADF29A915FE2B1DE52FD3AE /* Pods-XXTEA_Example */,
+				EB255BE6FF8E278BA343FFB92E598E73 /* Pods-XXTEA_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		701B2B1A67E84023566C9583353E1153 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1EFA5E556C0C424D0AE9B7975885103 /* Info.plist */,
+				6096A6E97294930189D54FF7E5327131 /* XXTEA.modulemap */,
+				0DFD90EDF7D8294BEC8DA107559AB5DF /* XXTEA.xcconfig */,
+				B8C1E1464E7019C10BD660B48C92FA70 /* XXTEA-dummy.m */,
+				A7B023B514C5D139EAF61D95B73E571F /* XXTEA-prefix.pch */,
+				4548A4B29320620025B276172BBB3115 /* XXTEA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXTEA";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FAB9751F1D71AE43EA78CCD08C6EB9A6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9717E710A40E1A8989E1067678377D93 /* Products */,
+				6F78386C110D98CD8951B1CB5A2E5369 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9717E710A40E1A8989E1067678377D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3653418F62DAD43F21DC45E155CB08A /* Pods_XXTEA_Example.framework */,
+				6E680C0D6E73EBBDCF4FDB5ECC678EBC /* Pods_XXTEA_Tests.framework */,
+				FB0CAD6C732679A2063AE8AA7680070F /* XXTEA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA41442CDFB31C6F23CDB22B89B459AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3235656F1C0B39377A5931AB6A62BE8C /* LICENSE */,
+				F525570559EB6089A25CA308E5E31F05 /* README.md */,
+				77BE0170086B3963787F1E73A3029586 /* XXTEA.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB255BE6FF8E278BA343FFB92E598E73 /* Pods-XXTEA_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				836F31A194ACC37E2130CE8CE175DE0B /* Info.plist */,
+				266AFE9683DC1A406712E1343E2576BE /* Pods-XXTEA_Tests.modulemap */,
+				545A21E63326E6767A0F35B377990311 /* Pods-XXTEA_Tests-acknowledgements.markdown */,
+				5850F8BC5E3B5A1F9506A3BB31187940 /* Pods-XXTEA_Tests-acknowledgements.plist */,
+				2EABB0909DCB754E57E2EE6CCEC4E5D8 /* Pods-XXTEA_Tests-dummy.m */,
+				DC6C41CA2148347FAE8A7980271D6FAF /* Pods-XXTEA_Tests-frameworks.sh */,
+				13DBB911E507E6CA8F52C862AF1C7B3D /* Pods-XXTEA_Tests-resources.sh */,
+				9A583F32CF9DC94364FA3FB72A987DB9 /* Pods-XXTEA_Tests-umbrella.h */,
+				9F89AB134F6397CDB0D11A80111F3A2C /* Pods-XXTEA_Tests.debug.xcconfig */,
+				A13EA8A7B9763087369D53E9159B763E /* Pods-XXTEA_Tests.release.xcconfig */,
+			);
+			name = "Pods-XXTEA_Tests";
+			path = "Target Support Files/Pods-XXTEA_Tests";
+			sourceTree = "<group>";
+		};
+		FAB9751F1D71AE43EA78CCD08C6EB9A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57DF9D482E03D96506C28DEB759785CE /* XXTEA */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		474909F14FFBDF9AB7BC901919BC8B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ED42B08D2DBA9FE27DE3C7262A5CC7 /* Pods-XXTEA_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973D2CF618A52A028F31787714DC75E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7E5C92FB19EADCBC01309E5B622594 /* Pods-XXTEA_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30C49C1C673ECF49C2F124C1D977950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B754086350D2A5628B7E27AAF4701D /* XXTEA-umbrella.h in Headers */,
+				36DFD765D7B319CA95A695F8EDDE337B /* XXTEA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79367AB5A787D5C65048F1F100F32342 /* Pods-XXTEA_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE60F03125C4EEE3AB630B466246C3F /* Build configuration list for PBXNativeTarget "Pods-XXTEA_Example" */;
+			buildPhases = (
+				474909F14FFBDF9AB7BC901919BC8B67 /* Headers */,
+				BD210203A731C3AEB9AA83C4C7370FD5 /* Sources */,
+				1813B9164C1073C0CBE4A6A9DD54B494 /* Frameworks */,
+				5B71EA82AAC830CF472F7CAA6C118C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0396E7CBFD79981629E28A4465EE6B /* PBXTargetDependency */,
+			);
+			name = "Pods-XXTEA_Example";
+			productName = "Pods-XXTEA_Example";
+			productReference = E3653418F62DAD43F21DC45E155CB08A /* Pods_XXTEA_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9011D7D8784AC26CFFF2D1E55FF8B9EC /* XXTEA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E7FF0D1EE139B6FE50D1D08A029180 /* Build configuration list for PBXNativeTarget "XXTEA" */;
+			buildPhases = (
+				C30C49C1C673ECF49C2F124C1D977950 /* Headers */,
+				1E940AA80692004EDE439A4231EE3F84 /* Sources */,
+				DC1F21A2DC6E7FB546932A227CAA7F09 /* Frameworks */,
+				6EE294A155641DAF1ACEF4532CE83118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXTEA;
+			productName = XXTEA;
+			productReference = FB0CAD6C732679A2063AE8AA7680070F /* XXTEA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9362C98A75EE0BD9CA646D2CE9F68FC7 /* Pods-XXTEA_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD5B66349A648CCC6ADF57731B50F8A /* Build configuration list for PBXNativeTarget "Pods-XXTEA_Tests" */;
+			buildPhases = (
+				973D2CF618A52A028F31787714DC75E4 /* Headers */,
+				96C90000D14E853260AEDECA0E5B7ADE /* Sources */,
+				93016230BA3164724420C5B170C9AC66 /* Frameworks */,
+				E12058C77ECE321B9C6892343FE7B461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3A58E23302F1B3F4B7277825FFEA70 /* PBXTargetDependency */,
+			);
+			name = "Pods-XXTEA_Tests";
+			productName = "Pods-XXTEA_Tests";
+			productReference = 6E680C0D6E73EBBDCF4FDB5ECC678EBC /* Pods_XXTEA_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9717E710A40E1A8989E1067678377D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79367AB5A787D5C65048F1F100F32342 /* Pods-XXTEA_Example */,
+				9362C98A75EE0BD9CA646D2CE9F68FC7 /* Pods-XXTEA_Tests */,
+				9011D7D8784AC26CFFF2D1E55FF8B9EC /* XXTEA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B71EA82AAC830CF472F7CAA6C118C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE294A155641DAF1ACEF4532CE83118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12058C77ECE321B9C6892343FE7B461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E940AA80692004EDE439A4231EE3F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DEC28B1232EE226FA2C3ABA26D0BB6 /* XXTEA-dummy.m in Sources */,
+				BC78858D94DB0336983F82D4BBC19CCF /* XXTEA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C90000D14E853260AEDECA0E5B7ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E812A30CF8AEA7D3900991B8A29DB5 /* Pods-XXTEA_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD210203A731C3AEB9AA83C4C7370FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90F4E72E71EF30B42D11E8A970920A /* Pods-XXTEA_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3A58E23302F1B3F4B7277825FFEA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XXTEA_Example";
+			target = 79367AB5A787D5C65048F1F100F32342 /* Pods-XXTEA_Example */;
+			targetProxy = 0BEDC7CBF7D919A34A4C008B4B5AB7A7 /* PBXContainerItemProxy */;
+		};
+		2E0396E7CBFD79981629E28A4465EE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXTEA;
+			target = 9011D7D8784AC26CFFF2D1E55FF8B9EC /* XXTEA */;
+			targetProxy = A7E643D26A0AAA75D55F12E10551866C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73AD68F91D555E5321DF4E96B3841908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467087A91FC60575C6EE3C416A012F09 /* Pods-XXTEA_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXTEA_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXTEA_Example/Pods-XXTEA_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7792409F25D658A225D0D911E83C6FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CD64F1D0B5077079AE9E1AC8C4CB1C /* Pods-XXTEA_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXTEA_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXTEA_Example/Pods-XXTEA_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		782B625BBD284B2244234C095CEB48E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD90EDF7D8294BEC8DA107559AB5DF /* XXTEA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XXTEA/XXTEA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXTEA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXTEA/XXTEA.modulemap";
+				PRODUCT_MODULE_NAME = XXTEA;
+				PRODUCT_NAME = XXTEA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6ADB265E97D32836732D2ABFE9199D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F89AB134F6397CDB0D11A80111F3A2C /* Pods-XXTEA_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXTEA_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXTEA_Tests/Pods-XXTEA_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E592E98216C666AFCD039E3A4ECAB932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD90EDF7D8294BEC8DA107559AB5DF /* XXTEA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XXTEA/XXTEA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXTEA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXTEA/XXTEA.modulemap";
+				PRODUCT_MODULE_NAME = XXTEA;
+				PRODUCT_NAME = XXTEA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFDAFA1271E934371A76526367386709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13EA8A7B9763087369D53E9159B763E /* Pods-XXTEA_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXTEA_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXTEA_Tests/Pods-XXTEA_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE60F03125C4EEE3AB630B466246C3F /* Build configuration list for PBXNativeTarget "Pods-XXTEA_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7792409F25D658A225D0D911E83C6FAC /* Debug */,
+				73AD68F91D555E5321DF4E96B3841908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E7FF0D1EE139B6FE50D1D08A029180 /* Build configuration list for PBXNativeTarget "XXTEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782B625BBD284B2244234C095CEB48E1 /* Debug */,
+				E592E98216C666AFCD039E3A4ECAB932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD5B66349A648CCC6ADF57731B50F8A /* Build configuration list for PBXNativeTarget "Pods-XXTEA_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ADB265E97D32836732D2ABFE9199D1 /* Debug */,
+				EFDAFA1271E934371A76526367386709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
